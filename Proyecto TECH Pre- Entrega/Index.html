@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa - Moda Urbana</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Moda Urbana</h1>
+        <p>Tu estilo, tus reglas</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#resenas">Reseñas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        
+        <section id="inicio" class="seccion-inicio">
+            <h2>Bienvenido a la nueva colección</h2>
+            <div class="multimedia-container">
+                <video width="560" height="315" src="video/video.mp4" title="Video de compras" frameborder="0" allow="accelerometer; autoplay; loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></video>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="productos-flex-container">
+                <article class="card">
+                    <img src="img/Imagen 1.avif" alt="Camiseta Básica">
+                    <h3>Camiseta Básica</h3>
+                    <p>$25.00</p>
+                    <button>Añadir al carrito</button>
+                </article>
+                <article class="card">
+                    <img src="img/Imagen 2.avif" alt="Jeans Clásicos">
+                    <h3>Jeans Clásicos</h3>
+                    <p>$45.00</p>
+                    <button>Añadir al carrito</button>
+                </article>
+                <article class="card">
+                    <img src="img/Imagen 3.avif" alt="Chaqueta de Cuero">
+                    <h3>Chaqueta de Cuero</h3>
+                    <p>$89.00</p>
+                    <button>Añadir al carrito</button>
+                </article>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="resenas">
+            <h2>Reseñas de Clientes</h2>
+            <div class="resenas-grid-container">
+                <div class="resena">
+                    <h4>María L.</h4>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>"La mejor calidad en ropa que he comprado este año. Los jeans arman perfecto."</p>
+                </div>
+                <div class="resena">
+                    <h4>Juan P.</h4>
+                    <p>⭐⭐⭐⭐</p>
+                    <p>"El envío fue súper rápido y la chaqueta es exactamente como en la foto."</p>
+                </div>
+                <div class="resena">
+                    <h4>Ana S.</h4>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>"Me encantó el servicio al cliente y las camisetas son súper suaves."</p>
+                </div>
+                <div class="resena">
+                    <h4>Carlos M.</h4>
+                    <p>⭐⭐⭐⭐</p>
+                    <p>"Buenos precios para la calidad que ofrecen. Recomendado."</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <form action="https://formspree.io/f/TU_ID_AQUI" method="POST" class="formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required placeholder="tu@correo.com">
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Moda Urbana. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
